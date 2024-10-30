@@ -1,0 +1,40 @@
+.full-box {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 15px;
+    height: 100%;
+}
+
+.expense-list {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.expense-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#icon, #modal-icon {
+    fill: #28a745;
+    width: 100px;
+    height: 100px;
+}
+
+#preview-box {
+    position: relative;
+    background: url('image/icon1.png') no-repeat;
+    background-size: 150px 150px;
+    background-position: left bottom;
+    opacity: 0.9;
+    overflow: hidden;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#output {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    border-radius: 5px;
+}
